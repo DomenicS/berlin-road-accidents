@@ -65,3 +65,18 @@ def get_distance(row):
     distance = round(GD(point, city_center).km,3)
     return distance 
     
+def change_to_str(x):
+    x_str = str(x)
+    if len(x_str) == 7:
+        x = '0' + x_str
+    if len(x_str) == 8:
+        x = x_str
+    return x
+
+def add_second_key(row):
+    if row['month'] in [1,2,3,4,5,6]:
+        key =  str(row['PLR_ID']) + "-" + str(row["year"]) + "-1"
+        return key
+    elif row['month'] in [7,8,9,10,11,12]:
+        key = str(row['PLR_ID']) + "-" + str(row["year"]) + "-2"
+        return key
