@@ -2,3 +2,5 @@
 *.geojson
 *.pkl
 *.xlsx
+notebooks/archiv/
+data/
