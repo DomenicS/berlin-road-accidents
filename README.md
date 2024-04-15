@@ -1,5 +1,8 @@
 # project_berlin-road-accident
 
+## Final Tableau Dashboard / Vizualization
+
+- https://public.tableau.com/app/profile/domenic4547/viz/BerlinRoadAccidents-Draft/VIZ 
 
 ## Project Structure
 
@@ -10,7 +13,7 @@
 ## Key Procedures
 
 - **Data Cleaning**: Involves handling missing values and formatting data to ensure consistency across the datasets.
-- **Pre-processing of Geospatial Data in Python**: To enhance performance in Tableau, geospatial data joins and transformations were performed in Python. This step ensures that the data is already geographically structured and optimized for fast loading and analysis in Tableau, eliminating the need for computationally intensive operations within the visualization tool.
+- **Pre-processing of Geospatial Data in Python**: To enhance performance in Tableau, geospatial data joins and transformations were performed in Python. This step ensures that the data is already geographically structured and optimized for fast loading and analysis in Tableau
 - **Data Export**: Includes storing the cleaned and transformed data into a SQL database and exporting to CSV files for use in applications such as Tableau.
 
 
